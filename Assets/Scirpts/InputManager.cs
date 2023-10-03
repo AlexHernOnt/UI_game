@@ -6,13 +6,21 @@ public class InputManager : MonoBehaviour
 
 	//Time
 
-	public float   start_press;
-	public int		in_touch;
-	private TouchControls touchControls;
+	public float			start_press;
+	public int				in_touch;
+	private TouchControls	touchControls;
+
+	public GameObject		ad;
+	public imageTouched		ad_script;
+
 
 	private void Awake()
 	{
 		touchControls = new TouchControls();
+		
+		ad = GameObject.Find("Ad");
+		ad_script = ad.GetComponent<imageTouched>();
+
 	}
 
 	private void OnEnable()
@@ -24,7 +32,11 @@ public class InputManager : MonoBehaviour
 		if (Time.time >= start_press && in_touch == 1)
 		{
 			in_touch = 0;
-			Debug.Log("thtbawtdfmtidwtlamaaph");
+			if (ad_script.clicked == true)
+			{
+				Debug.Log("options");
+				ad_script.clicked = false;
+			}
 		}
 	}
 
@@ -47,6 +59,15 @@ public class InputManager : MonoBehaviour
 
 	private void EndTouch(InputAction.CallbackContext context)
 	{
+		if (Time.time <= start_press && in_touch == 1)
+		{
+			if (ad_script.clicked == true)
+			{
+				Debug.Log("zoom");
+				ad_script.clicked = false;
+			}
+			in_touch = 0;
+		}
 		in_touch = 0;
 	}
 }

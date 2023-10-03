@@ -6,10 +6,11 @@ using UnityEngine.EventSystems;// Required when using Event data.
 
 public class imageTouched : MonoBehaviour, IPointerDownHandler
 {
+    public bool         clicked;
     // Start is called before the first frame update
     void Start()
     {
-        
+        clicked = false;
     }
 
     // Update is called once per frame
@@ -20,8 +21,7 @@ public class imageTouched : MonoBehaviour, IPointerDownHandler
 
    	public void OnPointerDown (PointerEventData eventData) 
 	{
-		Debug.Log (this.gameObject.name + " Was Clicked.");
-        Destroy(gameObject);
+        clicked = true;
 	}
 
 }

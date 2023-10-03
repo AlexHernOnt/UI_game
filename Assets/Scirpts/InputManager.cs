@@ -10,8 +10,11 @@ public class InputManager : MonoBehaviour
 	public int				in_touch;
 	private TouchControls	touchControls;
 
-	public GameObject		ad;
-	public imageTouched		ad_script;
+	private GameObject		ad;
+	private imageTouched	ad_script;
+
+	public GameObject		wrong;
+	public GameObject		right;
 
 
 	private void Awake()

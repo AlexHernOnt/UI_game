@@ -23,4 +23,9 @@ public class navegation : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void playAnimationFromCode(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputManager : MonoBehaviour
 {
@@ -8,19 +9,33 @@ public class InputManager : MonoBehaviour
 
 	public float			start_press;
 	public int				in_touch;
-	private TouchControls	touchControls;
+	public TouchControls	touchControls;
+	public bool				in_select;
 
-	private GameObject		ad;
-	private imageTouched	ad_script;
+	public GameObject		ad;
+	public imageTouched		ad_script;
 
 	public GameObject		wrong;
 	public GameObject		right;
+	public GameObject		background_on_Select;
+
+	public decision			_descision;
+
+
+//change scense
+
+	public string		zoom_scene;
+
+
+
+	public bool				its_scam;
 
 
 	private void Awake()
 	{
 		touchControls = new TouchControls();
 		
+		in_select = false;
 		ad = GameObject.Find("Ad");
 		ad_script = ad.GetComponent<imageTouched>();
 
@@ -30,15 +45,38 @@ public class InputManager : MonoBehaviour
 	{
 		touchControls.Enable();
 	}
+
 	private void Update()
 	{
+		if (in_select == true && in_touch == 1 && _descision.done == true)
+		{
+			background_on_Select.SetActive(false);
+			wrong.SetActive(false);
+			right.SetActive(false);
+			in_select = false;
+		}
+
 		if (Time.time >= start_press && in_touch == 1)
 		{
 			in_touch = 0;
+
 			if (ad_script.clicked == true)
 			{
 				Debug.Log("options");
 				ad_script.clicked = false;
+
+				if(in_select == false)
+				{
+
+					if (_descision.done == false)
+					{
+						background_on_Select.SetActive(true);
+						wrong.SetActive(true);
+						right.SetActive(true);
+					}
+
+					in_select = true;
+				}
 			}
 		}
 	}
@@ -56,7 +94,7 @@ public class InputManager : MonoBehaviour
 
 	private void StartTouch(InputAction.CallbackContext context)
 	{
-		start_press = Time.time + 0.5f;
+		start_press = Time.time + 0.3f;
 		in_touch = 1;
 	}
 
@@ -68,6 +106,7 @@ public class InputManager : MonoBehaviour
 			{
 				Debug.Log("zoom");
 				ad_script.clicked = false;
+		        SceneManager.LoadScene(zoom_scene);
 			}
 			in_touch = 0;
 		}

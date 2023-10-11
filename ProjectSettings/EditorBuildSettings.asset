@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Teresa1.unity
+    path: Assets/Scenes/00MenuContactos/Menu_contactos_dia_1.unity
+    guid: ef97e2a955fbb4c40bccde350e52230a
+  - enabled: 1
+    path: Assets/Scenes/dep_Teresa1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/ad_Teresa1.unity
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/04Laura/Laura1.unity
     guid: cc05a7dd0938abb45aff417667060426
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria1.unity
+    guid: c795d2d2de7d23346b5beb7e0012b497
   m_configObjects: {}

@@ -18,15 +18,210 @@ EditorBuildSettings:
     path: Assets/Scenes/01Antonio/Antonio1.unity
     guid: 6d3a6fdce8f44eb499abd2d9939cf7aa
   - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio2.unity
+    guid: 8dadcfa121b8c714a89fa66f9246dfa0
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio3.unity
+    guid: 61ed4c748aada3840b01ed95161098d6
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio4.unity
+    guid: 09ddb33c433dfc24594308bed8405583
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio5.unity
+    guid: f410803b3f4976843966bc200b0d56ce
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio6.unity
+    guid: 23c250b782ed1914a859b1793cbee49d
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio7.unity
+    guid: fd4b7f23f0b73754b8f9df3b4fd2e50d
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio8.unity
+    guid: 0f07c191ffa5b3149a4080bb0b2a56b5
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio9.unity
+    guid: 8db33efd917065f4c93617a919be4961
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio10.unity
+    guid: b280e66db018e9446915d2b21b246cae
+  - enabled: 1
     path: Assets/Scenes/02Teresa/Teresa1.unity
     guid: df121b0d64a16d04a84f86c31cf35dda
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa2.unity
+    guid: 63d0bfe7a8865694d9e842127f9421c3
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa3.unity
+    guid: b1d2bd87a0d747b49a43dacfbc37d45b
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa4.unity
+    guid: a517e69746fb3ba45b83bfd61f511e4b
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa5.unity
+    guid: 87f90adaab695bf459eb4bb8dd3b90f7
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa6.unity
+    guid: 0e5b227bf51f0c44b9ac625e86da002f
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa7.unity
+    guid: 7ff7720fb5fa0cb4fa92a2be372d7962
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa8.unity
+    guid: d88a4887472264a4681264be91c07603
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa9.unity
+    guid: 38dd4ded846884b4790680a1f308a1e9
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa10.unity
+    guid: 65494c22cc72ec34080e02cc91397993
   - enabled: 1
     path: Assets/Scenes/03Manuel/Manuel1.unity
     guid: 80fc327d28cab704baad43e5ffe5d72e
   - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel2.unity
+    guid: ddd342df4f363d14296605ea2a438f14
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel3.unity
+    guid: bd6e90bdadc82334fbefbde8c99c7ee4
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel4.unity
+    guid: ed962f236915cbd4b9e98c588fc19e4e
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel5.unity
+    guid: 5c9105fbe41ce224bb35023d1d4c31d4
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel6.unity
+    guid: 6e0b10d362465a64c8335a00e048649b
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel7.unity
+    guid: ddf5e351fee37a14195718e7eabbff1a
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel8.unity
+    guid: 28ec3f31e1b9a274d8f3d91ff70b7041
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel9.unity
+    guid: 9c03815855052c3499f07c47fbbadc0d
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel10.unity
+    guid: fd226c043b6e08248949dcbfe56daaed
+  - enabled: 1
     path: Assets/Scenes/04Laura/Laura1.unity
     guid: cc05a7dd0938abb45aff417667060426
   - enabled: 1
+    path: Assets/Scenes/04Laura/Laura2.unity
+    guid: 9df7556bcdd6a9846ab40967547c9116
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura3.unity
+    guid: 03308b3a55517854699c8c4fd43e66e6
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura4.unity
+    guid: f8c3ef1abb81e264dbc0e2839e38d85d
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura5.unity
+    guid: 9cbcc07d366e6f64389648b1d7600858
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura6.unity
+    guid: 5560baf2923a61c42916b7eff16feb40
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura7.unity
+    guid: b70876212f8e61f43a15ffdd37778480
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura8.unity
+    guid: dec07e45eb10d4b458c3fa971de20c80
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura9.unity
+    guid: b1999fd8809e324468f29319488f41a4
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura10.unity
+    guid: bb0b386d559ced04c9925f71ef19c829
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel1.unity
+    guid: 8333325b664c0ed40a91cc831ba59a31
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel2.unity
+    guid: 0de82d97442e0864289946e187417c36
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel3.unity
+    guid: e6e1177c33df18d4691d02b99f6b8369
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel4.unity
+    guid: 74af132b912aec342b82e79fec6e7814
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel5.unity
+    guid: d325dc27746d9d94ea123cb781dda54e
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel6.unity
+    guid: 03764afcee86bfb48b91015646286332
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel7.unity
+    guid: 330fefb6103c40b4f99f29682b03385c
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel8.unity
+    guid: 409f94a7f30e821428607c8b620100c5
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel9.unity
+    guid: 0b3f9facecf71f345b4527efde9f543f
+  - enabled: 1
+    path: Assets/Scenes/05Manuel/Manuel10.unity
+    guid: 785379e7ae80d9c4e8406ab8717416e2
+  - enabled: 1
     path: Assets/Scenes/06Maria/Maria1.unity
     guid: c795d2d2de7d23346b5beb7e0012b497
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria2.unity
+    guid: 72f79a85198038a40a19a2a020b8e10a
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria3.unity
+    guid: 6f7b07c4fd0101c4788cffab82ce286b
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria4.unity
+    guid: b785cb9801caa80478811539f291a2e9
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria5.unity
+    guid: e197a31f2648314448b85a70622f2616
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria6.unity
+    guid: 181a7d972c2cb96438dd3d123adacae5
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria7.unity
+    guid: 1e86e26bbf035654b87487f69cf88568
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria8.unity
+    guid: 5b225791ae848d040849209beb8cd1ab
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria9.unity
+    guid: 730e8372470364f44a4a64684b74f2cd
+  - enabled: 1
+    path: Assets/Scenes/06Maria/Maria10.unity
+    guid: 51fb97323ba7a9447997bfab620e410a
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan1.unity
+    guid: ffab9e689b339b048a65508ae8e25321
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan2.unity
+    guid: f2f24a80479ce254b849a89639c12376
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan3.unity
+    guid: 28896b81ba31ee7449f3dd5bbccc26fe
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan4.unity
+    guid: 85824a93db1ea02498d20bc3f3412971
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan5.unity
+    guid: 018b692a35b651b4c91707c93880c0c3
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan6.unity
+    guid: f1903eea15b00484b90a87d768bd443f
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan7.unity
+    guid: 08862040f16b1a24eaa43d13efe1887b
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan8.unity
+    guid: 64965de6413f55e45bfe829e89bac133
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan9.unity
+    guid: bba7008a932bbd54bafcc404ddc3ccfa
+  - enabled: 1
+    path: Assets/Scenes/07Juan/Juan10.unity
+    guid: 3f5e8cd3de30f7f4e89de4d6b26e6d60
   m_configObjects: {}

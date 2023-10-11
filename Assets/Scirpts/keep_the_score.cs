@@ -5,7 +5,7 @@ using UnityEngine;
 public class keep_the_score : MonoBehaviour
 {
     static keep_the_score   _isntance;
-
+    public string           _nameMenuScene;
 
     public navegation       n1;
     public navegation       n2;
@@ -29,6 +29,10 @@ public class keep_the_score : MonoBehaviour
         {
             _isntance = this;
             DontDestroyOnLoad(this.gameObject);
+            n1 = GameObject.Find("C1").GetComponent<navegation>();
+            n2 = GameObject.Find("C2").GetComponent<navegation>();
+            n3 = GameObject.Find("C3").GetComponent<navegation>();
+            n4 = GameObject.Find("C4").GetComponent<navegation>();
             start_day_1();
         }
 
@@ -42,9 +46,9 @@ public class keep_the_score : MonoBehaviour
     
     public void start_day_1()
     {
-        n1.nextScene = s1;
-        n2.nextScene = s2;
-        n3.nextScene = s3;
-        n4.nextScene = s4;
+        n1._next_scene = s1;
+        n2._next_scene = s2;
+        n3._next_scene = s3;
+        n4._next_scene = s4;
     }
 }

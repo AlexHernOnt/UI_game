@@ -38,7 +38,6 @@ public class InputManager : MonoBehaviour
 		in_select = false;
 		ad = GameObject.Find("Ad");
 		ad_script = ad.GetComponent<imageTouched>();
-
 	}
 
 	private void OnEnable()

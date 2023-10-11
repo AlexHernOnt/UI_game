@@ -28,7 +28,6 @@ public class moreInfo : MonoBehaviour
     		_Animator.Play("mas_info_up");
 			shoulgGoUp = 0;
 			deadline = Time.time + 1.4f;
-
 		}
 	}
 }

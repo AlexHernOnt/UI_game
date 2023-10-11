@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class navegation : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public string       nextScene;
+
     void Start()
     {
         
@@ -18,6 +20,12 @@ public class navegation : MonoBehaviour
         
     }
 
+       public void ChangeSceneFromMenu()
+    {
+        SceneManager.LoadScene(nextScene);
+    }
+
+
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -25,7 +33,6 @@ public class navegation : MonoBehaviour
 
     public void playAnimationFromCode(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
     }
 
 }

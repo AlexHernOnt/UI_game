@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ad_Teresa1.unity
     guid: fc346c7d76d1cc64381ed0b1d66158da
+  - enabled: 1
+    path: Assets/Scenes/01Antonio/Antonio1.unity
+    guid: 6d3a6fdce8f44eb499abd2d9939cf7aa
+  - enabled: 1
+    path: Assets/Scenes/02Teresa/Teresa1.unity
+    guid: df121b0d64a16d04a84f86c31cf35dda
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel1.unity
+    guid: 80fc327d28cab704baad43e5ffe5d72e
+  - enabled: 1
+    path: Assets/Scenes/04Laura/Laura1.unity
+    guid: cc05a7dd0938abb45aff417667060426
   m_configObjects: {}

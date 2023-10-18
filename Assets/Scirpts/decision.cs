@@ -32,10 +32,19 @@ public class decision : MonoBehaviour
 	{
 		if (done == false)
 		{
+			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
+	        kts.scene_played(kts.clicked_on);
+
 			if (sc_manager.its_scam == true)
+			{
 				incorrect.SetActive(true);
+				kts.incorrect++;
+			}
 			else
+			{
 				correct.SetActive(true);
+				kts.correct++;
+			}
 			done = true;
 		}
 	}
@@ -44,10 +53,19 @@ public class decision : MonoBehaviour
 	{
 		if (done == false)
 		{
+			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
+	        kts.scene_played(kts.clicked_on);
+
 			if (sc_manager.its_scam == false)
+			{
 				incorrect.SetActive(true);
+				kts.incorrect++;
+			}
 			else
+			{
 				correct.SetActive(true);
+				kts.correct++;
+			}
 			done = true;
 		}
 	}

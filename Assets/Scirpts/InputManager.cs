@@ -28,7 +28,7 @@ public class InputManager : MonoBehaviour
 
 
 
-	public bool				its_scam;
+	public bool				its_phising;
 
 
 	private void Awake()

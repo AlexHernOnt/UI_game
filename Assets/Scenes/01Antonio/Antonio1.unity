@@ -707,7 +707,7 @@ MonoBehaviour:
   background_on_Select: {fileID: 424638925}
   _descision: {fileID: 1381726899}
   zoom_scene: 0
-  its_scam: 0
+  its_phising: 0
 --- !u!4 &371249207
 Transform:
   m_ObjectHideFlags: 0
@@ -1508,7 +1508,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Correct !
+  m_text: 'Phishing Evitado !
 
 '
   m_isRightToLeft: 0
@@ -1519,8 +1519,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282429534
-  m_fontColor: {r: 0.367079, g: 0.6886792, b: 0.25013348, a: 1}
+    rgba: 4284460375
+  m_fontColor: {r: 0.34117648, g: 0.6784314, b: 0.37254903, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1543,9 +1543,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -161.66113, y: 0, z: -133.2373, w: 0}
+  m_margin: {x: -118.190125, y: -47.45927, z: -122.744354, w: -30.784378}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3542,7 +3542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Incorrect !
+  m_text: 'Eso no era Phishing!
 
 '
   m_isRightToLeft: 0
@@ -3577,9 +3577,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3607,7 +3607,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -161.66113, y: 0, z: -133.2373, w: 0}
+  m_margin: {x: -118.04993, y: -48.741943, z: -124.258545, w: -30.784378}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

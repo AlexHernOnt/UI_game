@@ -35,13 +35,15 @@ public class decision : MonoBehaviour
 			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
 	        kts.scene_played(kts.clicked_on);
 
-			if (sc_manager.its_scam == true)
+			if (sc_manager.its_phising == false)
 			{
+				print("abs");
 				incorrect.SetActive(true);
 				kts.incorrect++;
 			}
 			else
 			{
+				print("abs2");
 				correct.SetActive(true);
 				kts.correct++;
 			}
@@ -56,7 +58,7 @@ public class decision : MonoBehaviour
 			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
 	        kts.scene_played(kts.clicked_on);
 
-			if (sc_manager.its_scam == false)
+			if (sc_manager.its_phising == true)
 			{
 				incorrect.SetActive(true);
 				kts.incorrect++;

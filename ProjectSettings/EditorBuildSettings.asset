@@ -5,18 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/00MenuContactos/Menu_contactos_dia_1.unity
     guid: f4d18ddbeb669a34e8ca7cdc5ec066e1
   - enabled: 1
-    path: Assets/Scenes/dep_Teresa1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/ad_Teresa1.unity
-    guid: fc346c7d76d1cc64381ed0b1d66158da
+    path: Assets/Scenes/00MenuContactos/Jefa.unity
+    guid: d66ddcab3a214b44d8085a266eb38cc6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/01Antonio/Antonio1.unity
     guid: af38719e7f680974ea4d3f0efafdc9a8
@@ -197,9 +197,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/06Maria/Maria10.unity
     guid: d47c353dbaac9d2409b6771338ffc372
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/07Juan/Juan1.unity
-    guid: 09c80b73eb9e376448a54ba76511b4d0
+    guid: 257bce7ee8e4d53448c4eeb73b865777
   - enabled: 1
     path: Assets/Scenes/07Juan/Juan2.unity
     guid: 3d427101354f8304aa26e6fd6dcfdaee

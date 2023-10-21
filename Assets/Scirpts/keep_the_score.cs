@@ -41,6 +41,7 @@ public class keep_the_score : MonoBehaviour
             Destroy(gameObject);
         else
         {
+            
             _isntance = this;
             DontDestroyOnLoad(this.gameObject);
             // I don't need any of this at all.
@@ -92,7 +93,6 @@ public class keep_the_score : MonoBehaviour
 
     public void change_score()
     {
-        print("ae");
         text_correct = GameObject.Find("Correct_ui").GetComponent<TMP_Text>();
         text_incorrect = GameObject.Find("Incorrect_ui").GetComponent<TMP_Text>();
 

@@ -53,6 +53,11 @@ public class navegation : MonoBehaviour
         SceneManager.LoadScene(str);
     }
 
+    public void load_jefa()
+    {
+        SceneManager.LoadScene("Jefa");
+    }
+
 
     public void ChangeScene(string sceneName)
     {

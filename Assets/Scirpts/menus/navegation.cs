@@ -16,8 +16,10 @@ public class navegation : MonoBehaviour
         kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
         if (order == 1)
         {
+
 		    kts.deactivate_notifications();
             kts.change_score();
+
         }
 
         if (order == 1)
@@ -42,7 +44,16 @@ public class navegation : MonoBehaviour
 
         kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
         kts.clicked_on = order;
-        SceneManager.LoadScene(_next_scene);
+
+        if (order == 1)
+            SceneManager.LoadScene(kts.s1);
+        if (order == 2)
+            SceneManager.LoadScene(kts.s2);
+        if (order == 3)
+            SceneManager.LoadScene(kts.s3);
+        if (order == 4)
+            SceneManager.LoadScene(kts.s4);
+        
     }
 
     public void go_back()
@@ -52,7 +63,14 @@ public class navegation : MonoBehaviour
 
         SceneManager.LoadScene(str);
     }
+   public void go_back_new_day()
+    {
+        keep_the_score          kts;
+        kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
 
+        kts.get_new_round();
+        SceneManager.LoadScene(kts._nameMenuScene);
+    }
     public void load_jefa()
     {
         SceneManager.LoadScene("Jefa");
@@ -66,6 +84,10 @@ public class navegation : MonoBehaviour
 
     public void playAnimationFromCode(string sceneName)
     {
+    }
+    public void nextDay()
+    {
+        SceneManager.LoadScene("Intermedio");
     }
 
 }

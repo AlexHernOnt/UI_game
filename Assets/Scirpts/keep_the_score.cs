@@ -25,8 +25,8 @@ public class keep_the_score : MonoBehaviour
 	public string           s4;
 
 	
-	public TMP_Text            text_correct;
-	public TMP_Text            text_incorrect;
+	public TMP_Text         text_correct;
+	public TMP_Text         text_incorrect;
 
 
 	public int              correct;

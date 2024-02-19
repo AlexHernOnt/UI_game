@@ -5,7 +5,7 @@ using UnityEngine;
 public class decision : MonoBehaviour
 {
 
-		// Answer
+	// Answer
 
 	public GameObject		correct;
 	public GameObject		incorrect;
@@ -18,8 +18,8 @@ public class decision : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		manager = GameObject.Find("Manager");
-		sc_manager = manager.GetComponent<InputManager>();
+		if ((manager = GameObject.Find("Manager")) != null)
+			sc_manager = manager.GetComponent<InputManager>();
 	}
 
 	// Update is called once per frame
@@ -28,8 +28,9 @@ public class decision : MonoBehaviour
 		
 	}
 
-	public void ad_is_not_scam() 
+	public void EsPhishing() 
 	{
+		print("tururu");
 		if (done == false)
 		{
 			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();
@@ -51,8 +52,9 @@ public class decision : MonoBehaviour
 		}
 	}
 	
-	public void ad_is_scam()
+	public void EsAutentico()
 	{
+		print("cuscus");
 		if (done == false)
 		{
 			keep_the_score kts = GameObject.Find("Manager_scenes").GetComponent<keep_the_score>();

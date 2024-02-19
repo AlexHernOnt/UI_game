@@ -46,13 +46,29 @@ public class navegation : MonoBehaviour
         kts.clicked_on = order;
 
         if (order == 1)
-            SceneManager.LoadScene(kts.s1);
+        {
+            int buildIndex = SceneUtility.GetBuildIndexByScenePath(kts.s1);
+            if (buildIndex != -1)
+                SceneManager.LoadScene(kts.s1);
+        }
         if (order == 2)
-            SceneManager.LoadScene(kts.s2);
+        {
+            int buildIndex = SceneUtility.GetBuildIndexByScenePath(kts.s2);
+            if (buildIndex != -1)
+                SceneManager.LoadScene(kts.s2);
+        }
         if (order == 3)
-            SceneManager.LoadScene(kts.s3);
+        {
+            int buildIndex = SceneUtility.GetBuildIndexByScenePath(kts.s3);
+            if (buildIndex != -1)
+                SceneManager.LoadScene(kts.s3);
+        }
         if (order == 4)
-            SceneManager.LoadScene(kts.s4);
+        {
+            int buildIndex = SceneUtility.GetBuildIndexByScenePath(kts.s4);
+            if (buildIndex != -1)
+                SceneManager.LoadScene(kts.s4);
+        }
         
     }
 

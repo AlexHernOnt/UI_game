@@ -36,8 +36,8 @@ public class InputManager : MonoBehaviour
 		touchControls = new TouchControls();
 		
 		in_select = false;
-		ad = GameObject.Find("Ad");
-		ad_script = ad.GetComponent<imageTouched>();
+		if ((ad = GameObject.Find("Ad")) != null)
+			ad_script = ad.GetComponent<imageTouched>();
 	}
 
 	private void OnEnable()

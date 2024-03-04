@@ -10,8 +10,8 @@ public class decision : MonoBehaviour
 	public GameObject		correct;
 	public GameObject		incorrect;
 
-	public GameObject		manager;
-	public InputManager     sc_manager;
+	private GameObject		manager;
+	private InputManager    sc_manager;
 
 	public bool				done;
 

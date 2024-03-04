@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
-
-
+using UnityEngine.SceneManagement;
 
 
 public class keep_the_score : MonoBehaviour
@@ -25,8 +24,8 @@ public class keep_the_score : MonoBehaviour
 	public string           s4;
 
 	
-	public TMP_Text         text_correct;
-	public TMP_Text         text_incorrect;
+	private TMP_Text         text_correct;
+	private TMP_Text         text_incorrect;
 
 
 	public int              correct;
@@ -45,8 +44,6 @@ public class keep_the_score : MonoBehaviour
 			get_new_round();
 			_isntance = this;
 			DontDestroyOnLoad(this.gameObject);
-
-			start_day_1();
 		}
 	}
 
@@ -56,13 +53,6 @@ public class keep_the_score : MonoBehaviour
 
 	}
 	
-	public void start_day_1()
-	{
-		//n1._next_scene = s1;
-		//n2._next_scene = s2;
-		//n3._next_scene = s3;
-		//n4._next_scene = s4;
-	}
 
 	public void scene_played(int scene)
 	{
@@ -76,25 +66,39 @@ public class keep_the_score : MonoBehaviour
 			s4 = " ";
 	}
 
-	private GameObject next_day_obj;
+	public GameObject next_day_obj;
 
 	public void deactivate_notifications()
 	{
 		next_day_obj = GameObject.Find("next_day");
-		next_day_obj.SetActive(false);
+		ft_hide_firsts();
 
 		if (s1 == " ")
-			GameObject.Find("Noti1").SetActive(false);
+		{
+			if (Antonio_counter == 10)
+				GameObject.Find("Noti5").SetActive(false);
+			else
+				GameObject.Find("Noti1").SetActive(false);
+		}
 		if (s2 == " ")
-			GameObject.Find("Noti2").SetActive(false);
+			if (Antonio_counter == 10)
+				GameObject.Find("Noti6").SetActive(false);
+			else
+				GameObject.Find("Noti2").SetActive(false);
 		if (s3 == " ")
-			GameObject.Find("Noti3").SetActive(false);
+			if (Antonio_counter == 10)
+				GameObject.Find("Noti7").SetActive(false);
+			else
+				GameObject.Find("Noti3").SetActive(false);
 		if (s4 == " ")
-			GameObject.Find("Noti4").SetActive(false);
+				GameObject.Find("Noti4").SetActive(false);
 		if (s1 == " " && s2 == " " && s3 == " " && s4 == " ")
 		{
+			print("This should come here");
 			next_day_obj.SetActive(true);
 		}
+		else
+			next_day_obj.SetActive(false);
 	}
 
 	public void change_score()
@@ -117,6 +121,7 @@ public class keep_the_score : MonoBehaviour
 	public int[]	Juan		= new int[10];
 
 	public int		Antonio_counter;
+	public int		second_round_counter;
 
 
 	public int get_random()
@@ -129,6 +134,7 @@ public class keep_the_score : MonoBehaviour
 	{
 		if (Antonio_counter != 10)
 		{
+			print("Not printing ever");
 			while (true)
 			{
 				int rn = get_random();
@@ -171,10 +177,57 @@ public class keep_the_score : MonoBehaviour
 				}
 			}
 		}
-		else
+		else if (second_round_counter != 10)
 		{
-
+			print("HELLO????s");
+			s4 = " ";
+			
+			while (true)
+			{
+				int rn = get_random();
+				if (ManuelC[rn] == 0)
+				{
+					s1 = "ManuelC" + (rn + 1).ToString();
+					ManuelC[rn] = 1;
+					second_round_counter++;
+					break ;
+				}
+			}
+			while (true)
+			{
+				int rn = get_random();
+				if (Maria[rn] == 0)
+				{
+					s2 = "Maria" + (rn + 1).ToString();
+					Maria[rn] = 1;
+					break ;
+				}
+			}
+			while (true)
+			{
+				int rn = get_random();
+				if (Juan[rn] == 0)
+				{
+					s3 = "Juan" + (rn + 1).ToString();
+					Juan[rn] = 1;
+					break ;
+				}
+			}
 		}
+	}
 
+	public void ft_hide_firsts()
+	{
+		if (Antonio_counter != 10)
+			return ;
+
+		GameObject a = GameObject.Find("BackgroundDeepColorA");
+		Destroy(a);
+		s4 = " ";
+
+		GameObject.Find("Card_1_Antonio").SetActive(false);
+		GameObject.Find("Card_Laura").SetActive(false);
+		GameObject.Find("Card_Manuel").SetActive(false);
+		GameObject.Find("Card_Teresa").SetActive(false);
 	}
 }

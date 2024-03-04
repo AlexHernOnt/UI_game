@@ -334,8 +334,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50870388}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1001 &54852750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1100,7 +1098,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8586149683366091291, guid: 4c6ece0a4e1729549a9761ff2e926ddf, type: 3}
   m_PrefabInstance: {fileID: 1879881142}
   m_PrefabAsset: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1 &371213777
 GameObject:
   m_ObjectHideFlags: 0

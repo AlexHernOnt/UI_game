@@ -70,35 +70,51 @@ public class keep_the_score : MonoBehaviour
 
 	public void deactivate_notifications()
 	{
-		next_day_obj = GameObject.Find("next_day");
-		ft_hide_firsts();
 
-		if (s1 == " ")
-		{
-			if (Antonio_counter == 10)
-				GameObject.Find("Noti5").SetActive(false);
-			else
-				GameObject.Find("Noti1").SetActive(false);
-		}
-		if (s2 == " ")
-			if (Antonio_counter == 10)
-				GameObject.Find("Noti6").SetActive(false);
-			else
-				GameObject.Find("Noti2").SetActive(false);
-		if (s3 == " ")
-			if (Antonio_counter == 10)
-				GameObject.Find("Noti7").SetActive(false);
-			else
-				GameObject.Find("Noti3").SetActive(false);
-		if (s4 == " ")
-				GameObject.Find("Noti4").SetActive(false);
+		next_day_obj = GameObject.Find("next_day");
+		
+		
 		if (s1 == " " && s2 == " " && s3 == " " && s4 == " ")
 		{
 			print("This should come here");
 			next_day_obj.SetActive(true);
 		}
 		else
+		{
+			print("Die");
 			next_day_obj.SetActive(false);
+		}
+		if (Antonio_counter == 10 && second_round_counter != 0)
+			ft_hide_firsts();
+
+
+
+		if (s1 == " ")
+		{
+			if (Antonio_counter == 10 && second_round_counter != 0)
+				GameObject.Find("Noti5").SetActive(false);
+			else
+				GameObject.Find("Noti1").SetActive(false);
+		}
+		if (s2 == " ")
+		{
+
+			if (Antonio_counter == 10 && second_round_counter != 0)
+				GameObject.Find("Noti6").SetActive(false);
+			else
+				GameObject.Find("Noti2").SetActive(false);
+		}
+		if (s3 == " ")
+		{
+			if (Antonio_counter == 10 && second_round_counter != 0)
+				GameObject.Find("Noti7").SetActive(false);
+			else
+				GameObject.Find("Noti3").SetActive(false);
+		}
+		if (s4 == " ")
+		{
+				GameObject.Find("Noti4").SetActive(false);
+		}
 	}
 
 	public void change_score()
@@ -132,8 +148,9 @@ public class keep_the_score : MonoBehaviour
 
 	public void get_new_round()
 	{
-		if (Antonio_counter != 10)
+		if (Antonio_counter < 10)
 		{
+			Antonio_counter++;
 			print("Not printing ever");
 			while (true)
 			{
@@ -142,7 +159,6 @@ public class keep_the_score : MonoBehaviour
 				{
 					s1 = "Antonio" + (rn + 1).ToString();
 					Antonio[rn] = 1;
-					Antonio_counter++;
 					break ;
 				}
 			}
@@ -181,7 +197,7 @@ public class keep_the_score : MonoBehaviour
 		{
 			print("HELLO????s");
 			s4 = " ";
-			
+			second_round_counter++;
 			while (true)
 			{
 				int rn = get_random();
@@ -189,7 +205,6 @@ public class keep_the_score : MonoBehaviour
 				{
 					s1 = "ManuelC" + (rn + 1).ToString();
 					ManuelC[rn] = 1;
-					second_round_counter++;
 					break ;
 				}
 			}
@@ -218,9 +233,6 @@ public class keep_the_score : MonoBehaviour
 
 	public void ft_hide_firsts()
 	{
-		if (Antonio_counter != 10)
-			return ;
-
 		GameObject a = GameObject.Find("BackgroundDeepColorA");
 		Destroy(a);
 		s4 = " ";

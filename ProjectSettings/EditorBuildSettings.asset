@@ -9,25 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Pantalla_inicio.unity
     guid: 6c6ba37a1c9be1845a485f80f271351e
   - enabled: 1
-    path: Assets/Scenes/00MenuContactos/Intermedio.unity
-    guid: f4d18ddbeb669a34e8ca7cdc5ec066e1
+    path: Assets/Scenes/00MenuContactos/Menu_contactos_dia_1.unity
+    guid: 8af58634bb6e0ca4b9d2316650888669
   - enabled: 1
     path: Assets/Scenes/00MenuContactos/Jefa.unity
     guid: d66ddcab3a214b44d8085a266eb38cc6
   - enabled: 1
-    path: Assets/Scenes/00MenuContactos/Menu_contactos_dia_1.unity
-    guid: 8af58634bb6e0ca4b9d2316650888669
+    path: Assets/Scenes/00MenuContactos/Intermedio.unity
+    guid: f4d18ddbeb669a34e8ca7cdc5ec066e1
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/00MenuContactos/Final.unity
     guid: 7ab24271bde04f742a816e7e7769cb34
-=======
-    path: Assets/Scenes/Pantalla_inicio.unity
-    guid: 6c6ba37a1c9be1845a485f80f271351e
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
->>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/01Antonio/Antonio1.unity
     guid: af38719e7f680974ea4d3f0efafdc9a8
@@ -89,6 +81,36 @@ EditorBuildSettings:
     path: Assets/Scenes/02Teresa/Teresa10.unity
     guid: ec57abed224f61147abf53892b80c080
   - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel1.unity
+    guid: ad3f98908623e5040bda6c7e150a0df8
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel2.unity
+    guid: 0a57a3ad8ee85c4489d38616331e1f71
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel3.unity
+    guid: 79bd394adfb0b924985c8e993fe4efa4
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel4.unity
+    guid: 8ec955bace2c4694daa890685b735de3
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel5.unity
+    guid: b246cd30e5f31674ea82fd9acaf2939b
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel6.unity
+    guid: 43b9a7fad8ec94e44878b3a3e117057c
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel7.unity
+    guid: 2821b168e8fc0df449962acf694fc3ed
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel8.unity
+    guid: c09a16dd7253d9e408b4dfe59187879c
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel9.unity
+    guid: b79f2e07b35222248945f19377889327
+  - enabled: 1
+    path: Assets/Scenes/03Manuel/Manuel10.unity
+    guid: 2b0cde81a0c8d7e4fa159db24b92f376
+  - enabled: 1
     path: Assets/Scenes/04Laura/Laura1.unity
     guid: 72e776d2296204a40b8bbb9fe9684671
   - enabled: 1
@@ -118,6 +140,36 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/04Laura/Laura10.unity
     guid: 37fb509bf7aa0994c85321ba0c140d93
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC1.unity
+    guid: 434dc3c57190faa45b5e4b31d5e52aab
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC2.unity
+    guid: dfa4a1ec4e1c7dd4c95fc33e3d057ac2
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC3.unity
+    guid: 4ac466b053d7e1e42afa5c6a9a9c312f
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC4.unity
+    guid: 382df56f3eedc384baac86de4d5950d1
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC5.unity
+    guid: c5e36fa07fb9d9047b3d2c6f02955221
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC6.unity
+    guid: 7e45dc188143e8146adc14ea3a801124
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC7.unity
+    guid: 1272bbecb269b8448a7508b205c3461e
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC8.unity
+    guid: 9ad96ebadc8bee444b46478be0e67513
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC9.unity
+    guid: 45e5878d935b36a41bca0b859c605f56
+  - enabled: 1
+    path: Assets/Scenes/05ManuelC/ManuelC10.unity
+    guid: a9f2f291e224300469bd31bb2cf45c4f
   - enabled: 1
     path: Assets/Scenes/06Maria/Maria1.unity
     guid: 7f26f57cacacf3c4d8af8a2ad43873c6
@@ -178,271 +230,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/07Juan/Juan10.unity
     guid: 4fdd74dd07dd33d489197bd8c48b26ca
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel1.unity
-    guid: ad3f98908623e5040bda6c7e150a0df8
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel2.unity
-    guid: 0a57a3ad8ee85c4489d38616331e1f71
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel3.unity
-    guid: 79bd394adfb0b924985c8e993fe4efa4
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel4.unity
-    guid: 8ec955bace2c4694daa890685b735de3
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel5.unity
-    guid: b246cd30e5f31674ea82fd9acaf2939b
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel6.unity
-    guid: 43b9a7fad8ec94e44878b3a3e117057c
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel7.unity
-    guid: 2821b168e8fc0df449962acf694fc3ed
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel8.unity
-    guid: c09a16dd7253d9e408b4dfe59187879c
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel9.unity
-    guid: b79f2e07b35222248945f19377889327
-  - enabled: 1
-    path: Assets/Scenes/03Manuel/Manuel10.unity
-    guid: 2b0cde81a0c8d7e4fa159db24b92f376
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC1.unity
-    guid: 434dc3c57190faa45b5e4b31d5e52aab
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC2.unity
-    guid: dfa4a1ec4e1c7dd4c95fc33e3d057ac2
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC3.unity
-    guid: 4ac466b053d7e1e42afa5c6a9a9c312f
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC4.unity
-    guid: 382df56f3eedc384baac86de4d5950d1
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC5.unity
-    guid: c5e36fa07fb9d9047b3d2c6f02955221
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC6.unity
-    guid: 7e45dc188143e8146adc14ea3a801124
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC7.unity
-    guid: 1272bbecb269b8448a7508b205c3461e
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC8.unity
-    guid: 9ad96ebadc8bee444b46478be0e67513
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC9.unity
-    guid: 45e5878d935b36a41bca0b859c605f56
-  - enabled: 1
-    path: Assets/Scenes/05ManuelC/ManuelC10.unity
-    guid: a9f2f291e224300469bd31bb2cf45c4f
-<<<<<<< Updated upstream
-=======
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
->>>>>>> Stashed changes
   m_configObjects: {}

@@ -4200,8 +4200,8 @@ MonoBehaviour:
   ManuelC: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   Maria: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   Juan: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  Antonio_counter: 8
-  second_round_counter: -1
+  Antonio_counter: 10
+  second_round_counter: 1
 --- !u!1 &1399868666
 GameObject:
   m_ObjectHideFlags: 0
@@ -4434,7 +4434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3107119967187205553, guid: 5ed2dcd570071c342813ed44265d8d05, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -54.452637
+      value: -54.6
       objectReference: {fileID: 0}
     - target: {fileID: 3107119967187205553, guid: 5ed2dcd570071c342813ed44265d8d05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

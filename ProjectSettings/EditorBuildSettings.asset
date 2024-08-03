@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Pantalla_inicio.unity
+    path: Assets/Scenes/Pruebas_Dario.unity
     guid: 6c6ba37a1c9be1845a485f80f271351e
   - enabled: 1
     path: Assets/Scenes/00MenuContactos/Menu_contactos_dia_1.unity

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: P1
   m_EditorClassIdentifier: 
   imagenDePerfil: {fileID: 0}
-  nombreDelPersonaje: Nombre del personaje
-  estadoCivil: Estado civil e hijos
-  entidadBancoria: Banco y numero (*1234)
-  gustosPersonaje: Entre 2 y 3 gustos con una palabra
+  nombreDelPersonaje: "Antonio L\xF3pez Soriano"
+  estadoCivil: Casado y sin hijos
+  entidadBancoria: Red Bank (*8264)
+  gustosPersonaje: Deportes | Animales | Viajar

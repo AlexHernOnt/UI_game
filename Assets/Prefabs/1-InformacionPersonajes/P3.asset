@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: P3
   m_EditorClassIdentifier: 
   imagenDePerfil: {fileID: 0}
-  nombreDelPersonaje: Nombre del personaje
-  estadoCivil: Estado civil e hijos
-  entidadBancoria: Banco y numero (*1234)
-  gustosPersonaje: Entre 2 y 3 gustos con una palabra
+  nombreDelPersonaje: "Manuel P\xE9rez Olmedo"
+  estadoCivil: Viudo y con tres hijos
+  entidadBancoria: Blue Bank (*3598)
+  gustosPersonaje: Arte | Periodismo | Viajar

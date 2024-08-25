@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boxinfo_Person
+  - Boxinfo_Business
+  - BoxInfo_FlipButton
   layers:
   - Default
   - TransparentFX

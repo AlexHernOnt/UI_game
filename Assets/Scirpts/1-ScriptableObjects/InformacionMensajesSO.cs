@@ -14,5 +14,6 @@ public class InformacionMensajesSO : ScriptableObject
     public bool tieneLink;
     public string linkDelMensaje = "url del link de la empresa";
     public bool tieneDocumento;
-    public Sprite documentoDelMensaje;    
+    public Sprite documentoDelMensaje;
+    public InformacionEmpresasSO empresaPrefab; 
 }

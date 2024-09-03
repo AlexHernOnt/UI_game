@@ -7,6 +7,8 @@ TagManager:
   - Boxinfo_Person
   - Boxinfo_Business
   - BoxInfo_FlipButton
+  - GameManager
+  - Message
   layers:
   - Default
   - TransparentFX

@@ -16,4 +16,4 @@ MonoBehaviour:
   nombreDelPersonaje: Manuel Casares Sanz
   estadoCivil: Casado, con tres hijos y dos hijas
   entidadBancoria: Blue Bank (*6129)
-  gustosPersonaje: Ejercito | Juego | Divorcio
+  gustosPersonaje: "Ej\xE9rcito | Juego | Divorcio"

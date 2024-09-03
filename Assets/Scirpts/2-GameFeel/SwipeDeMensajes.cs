@@ -6,18 +6,19 @@ public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     public float rotationAngle = 25f;
     public float swipeThreshold = 100f;
-    public float minAlpha = 0.5f; // Transparencia mínima
+    public float minAlpha = 0.5f; // Transparencia mï¿½nima
     public float colorBlendFactor = 0.5f; // Factor de mezcla del color (0.0 = original, 1.0 = completamente tintado)
 
     private RectTransform rectTransform;
-    private Image image;
+    public Image image;
+    //private Image image;
     private Vector2 startPos;
     private Color originalColor;
 
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-        image = GetComponent<Image>();
+        //image = GetComponent<Image>();
         startPos = rectTransform.anchoredPosition;
         originalColor = image.color;
     }
@@ -33,7 +34,7 @@ public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 
         float alpha = Mathf.Lerp(1f, minAlpha, Mathf.Abs(pos.x) / swipeThreshold);
 
-        // Determina el color basado en la dirección del deslizamiento
+        // Determina el color basado en la direcciï¿½n del deslizamiento
         Color targetColor = pos.x > 0 ? Color.green : Color.red;
         Color blendedColor = Color.Lerp(originalColor, targetColor, colorBlendFactor);
         image.color = new Color(blendedColor.r, blendedColor.g, blendedColor.b, alpha);
@@ -45,17 +46,17 @@ public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 
         if (Mathf.Abs(pos.x) >= swipeThreshold)
         {
-            // Aquí puedes manejar la acción de "descarte", por ejemplo, moviendo la imagen fuera de la pantalla.
+            // Aquï¿½ puedes manejar la acciï¿½n de "descarte", por ejemplo, moviendo la imagen fuera de la pantalla.
             pos.x = pos.x > 0 ? Screen.width : -Screen.width;
         }
         else
         {
-            // Devuelve la imagen a su posición original
+            // Devuelve la imagen a su posiciï¿½n original
             pos = startPos;
         }
 
         rectTransform.anchoredPosition = pos;
-        rectTransform.rotation = Quaternion.identity; // Resetea la rotación
+        rectTransform.rotation = Quaternion.identity; // Resetea la rotaciï¿½n
         image.color = originalColor; // Resetea la transparencia y el color
     }
 }

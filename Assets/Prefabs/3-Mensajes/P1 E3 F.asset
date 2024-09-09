@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1HAS GANADO UN DESCUENTO! Hola, Antonio L\xF3pez Soriano,
-    gracias a tu participaci\xF3n en una encuesta de nuestro banco has ganado una
-    oferta en nuestros paquetes de telefon\xEDa de hasta un 75%. Ponte en contacto
-    con nosotros en: RedBanck@esp.com Cuenta del cliente: *8264 M\xE1s informaci\xF3n
-    en nuestra WEB: www.redbank.esp"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1ANTONIO, ACTUALIZA TU SEGURO EN GREEN BANNK! Tu cuenta
+    de Green Bannk (*8264) necesita una actualizaci\xF3n para seguir recibiendo nuestras
+    ofertas en telefon\xEDa y entretenimiento. M\xE1s informaci\xF3n en nuestra WEB:
+    www.greenbank.ir"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

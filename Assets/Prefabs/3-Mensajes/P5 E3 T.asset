@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1PETICI\xD3N DENEGADA! Estimado MCS, desde Red Bank queremos
-    informarle que no podemos abrir una cuenta debido a sus deudas. Disculpe las
-    molestias. Cont\xE1ctenos a: RedBank@esp.com Puede consultar otros servicios
-    en nuestra WEB: www.RedBank.esp"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1MANUEL, UNA OFERTA EXCLUSIVA PARA VETERANOS! Como veterano,
+    en Green Bank te ofrecemos un viaje exclusivo dise\xF1ado para honrar tu servicio.
+    Disfruta de una experiencia inolvidable con otros h\xE9roes como t\xFA. Cuenta:
+    *6129 M\xE1s informaci\xF3n en nuestra WEB: www.greenbank.itl Escr\xEDbenos a:
+    GreenBank@mail.com"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

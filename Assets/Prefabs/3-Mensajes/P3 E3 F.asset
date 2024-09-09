@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1FELIZ ANIVERSARIO! Manuel P\xE9rez Olmedo, desde Red Bank
-    queremos ayudar a los mayores casados con descuentos en nuestros paquetes de
-    viajes. Cont\xE1ctanos en: RedBank@esp.com M\xE1s informaci\xF3n en nuestra WEB:
-    www.RedBank.fr"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1MANUEL, OFERTAS EN TELEFON\xCDA TE ESPERAN! Accede a nuestras
+    ofertas en telefon\xEDa actualizando tu cuenta de Blue Bank (*3599). No te pierdas
+    nuestras mejores tarifas. M\xE1s informaci\xF3n en nuestra WEB: www.greenbank.itl"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

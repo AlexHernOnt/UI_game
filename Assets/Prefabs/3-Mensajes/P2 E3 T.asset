@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1MEJORE SU CUENTA, MEJORE SUS AHORROS! Hola, Teresa Mart\xEDnez
-    Olivero, le ofrecemos una revisi\xF3n para mejorar su cuenta de ahorros familiar.
-    Ponte en contacto con nosotros en: RedBank@esp.com M\xE1s informaci\xF3n en nuestra
-    WEB: www.RedBank.uk"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1TERESA, DISFRUTA DE NUESTRAS OFERTAS EXCLUSIVAS! En Green
+    Bank, sabemos que la familia es importante. Aprovecha nuestras ofertas en seguros
+    y entretenimiento adaptadas especialmente para ti. Cuenta: *4753 M\xE1s informaci\xF3n
+    en nuestra WEB: www.greenbank.irl Cont\xE1ctanos en: GreenBank@mail.com"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

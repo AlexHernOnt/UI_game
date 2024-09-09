@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1ENHORABUENA POR TU ENCUESTA! Hola, Antonio L\xF3pez Soriano,
-    gracias por tu participaci\xF3n como cliente en la encuesta sobre nuestros servicios
-    en Red Bank, has ganado un 25% de descuento en nuestros seguros. Ponte en contacto
-    con nosotros en: RedBank@org.com Cuenta del cliente: *8264 M\xE1s informaci\xF3n
-    en nuestra WEB: www.redbank.uk"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1ANTONIO, ASEGURA TUS VIAJES CON GREEN BANK! Como amante
+    de los viajes, en Green Bank queremos ofrecerte una oferta exclusiva en seguros
+    de viaje. Protege tus aventuras y disfruta con total tranquilidad. Cuenta: *8264
+    M\xE1s informaci\xF3n en nuestra WEB: www.greenbank.esp Escr\xEDbenos a: GreenBank@mail.com"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

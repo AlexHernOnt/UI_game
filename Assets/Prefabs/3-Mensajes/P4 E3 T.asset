@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1NUESTRO GRANITO DE ARENA! En Red Bank sabemos la importancia
-    que tienen los profesores, por eso queremos premiar a aquellos que han dedicado
-    su vida a la docencia con un descuento en nuestros viajes de un 15%. Para m\xE1s
-    informaci\xF3n, cont\xE1ctanos en: RedBank@esp.com Cuenta del cliente: *6129
-    Visita nuestra WEB: www.redbank.uk"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1LAURA, PROTEGE TU HOGAR CON GREEN BANK! Como miembro de
+    Green Bank, te ofrecemos una oferta especial en seguros de hogar. Protege a tu
+    familia y tu vivienda con nuestra cobertura exclusiva. Cuenta: *6129 M\xE1s informaci\xF3n
+    en nuestra WEB: www.greenbank.esp Escr\xEDbenos a: GreenBank@mail.com"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

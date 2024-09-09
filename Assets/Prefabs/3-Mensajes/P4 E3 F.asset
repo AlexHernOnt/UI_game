@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1OFERTA EXCLUSIVA! Por ser miembro de Bed Bank, te ofrecemos
-    un precio exclusivo en nuestro seguro de hogar para proteger a tu familia. \xA1No
-    pierdas esta oportunidad \xFAnica! Detalles sobre la promoci\xF3n en: BedBank@itl.com
-    Cuenta del cliente: *6529 M\xE1s informaci\xF3n en nuestra WEB: www.BedBank.esp"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1LAURA, CAMBIA A NUESTRAS TARIFAS DE TELEFON\xCDA! Aprovecha
+    nuestras ofertas en telefon\xEDa m\xF3vil actualizando tu cuenta de Red Bank
+    (*6128). \xA1No te pierdas esta oportunidad! M\xE1s informaci\xF3n en nuestra
+    WEB: www.greenbank.ir"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

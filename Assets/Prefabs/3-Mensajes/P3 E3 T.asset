@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1REVISTA ARTE! Ya est\xE1 disponible nuestro cat\xE1logo
-    de revistas de arte exclusivas de Red Bank, suscr\xEDbase para obtenerlas semanalmente.
-    Cont\xE1ctenos a: RedBank@esp.com Puede suscribirse en nuestra WEB: www.RedBank.urc"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1MANUEL, OFERTA ESPECIAL PARA TI! Gracias a tu inter\xE9s
+    en el arte y el periodismo, Green Bank te ofrece una oferta exclusiva en seguros
+    de vida. Protege a tu familia y disfruta de la tranquilidad que mereces. Cuenta:
+    *3598 M\xE1s informaci\xF3n en nuestra WEB: www.greenbank.esp Escr\xEDbenos a:
+    GreenBank@mail.com"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

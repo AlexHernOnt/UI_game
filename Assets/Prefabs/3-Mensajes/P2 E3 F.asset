@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1TE MEJORAMOS EL PRECIO! Hola, Teresa Mart\xEDnez Olivero,
-    desde Reed Baank le ofrecemos una mejora de condiciones para su cuenta de ahorros.
-    Ponte en contacto con nosotros en: ReedBaank@esp.com M\xE1s informaci\xF3n en
-    nuestra WEB: www.ReedBaank.esp"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1TERESA, TU CUENTA EN GREEN BANK NECESITA ATENCI\xD3N! Hemos
+    detectado actividad sospechosa en tu cuenta de Green Banck (*4752). Actualiza
+    tus datos para seguir disfrutando de nuestras ofertas en seguros y telefon\xEDa.
+    Vis\xEDtanos en nuestra WEB: www.greenbank.itl"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

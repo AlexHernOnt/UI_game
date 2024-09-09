@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1SEGURO FAMILIAR! Red Bank da la oportunidad a los veteranos
-    de adquirir seguros de familia m\xE1s baratos. Realiza tu dep\xF3sito en: RedBank@itl.com
-    M\xE1s informaci\xF3n en nuestra WEB: www.redbank.fr"
+  emisorDelMensajes: Green Bank
+  contenidoMensajes: "\xA1MANUEL, OBTEN UN BONO DE JUEGOS EN NUESTRA WEB! Tu cuenta
+    de Green Bank (*6128) te da acceso a bonos exclusivos para juegos en l\xEDnea.
+    Actualiza tus datos para empezar a jugar. M\xE1s informaci\xF3n en nuestra WEB:
+    www.greenbank.esp"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

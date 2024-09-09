@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
-  m_Name: P4E1F
+  m_Name: P5 E2 F
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1OFERTA EXCLUSIVA! Por ser miembro de Bed Bank, te ofrecemos
-    un precio exclusivo en nuestro seguro de hogar para proteger a tu familia. \xA1No
-    pierdas esta oportunidad \xFAnica! Detalles sobre la promoci\xF3n en: BedBank@itl.com
-    Cuenta del cliente: *6529 M\xE1s informaci\xF3n en nuestra WEB: www.BedBank.esp"
+  emisorDelMensajes: Blue Bank
+  contenidoMensajes: "\xA1INVERTIR ES VIVIR! Queremos premiar a nuestros clientes
+    m\xE1s antiguos dando una ganancia del 15% al invertir con nosotros. Cont\xE1ctenos
+    en: BlueBank.uk.com Cuenta del cliente: *6129 Vis\xEDtanos en: www.BlueBank.fr"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
-  m_Name: P5E1F
+  m_Name: P1 E1 T
   m_EditorClassIdentifier: 
-  phising: 1
+  phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
   emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1SEGURO FAMILIAR! Red Bank da la oportunidad a los veteranos
-    de adquirir seguros de familia m\xE1s baratos. Realiza tu dep\xF3sito en: RedBank@itl.com
-    M\xE1s informaci\xF3n en nuestra WEB: www.redbank.fr"
+  contenidoMensajes: "\xA1ENHORABUENA POR TU ENCUESTA! Hola, Antonio L\xF3pez Soriano,
+    gracias por tu participaci\xF3n como cliente en la encuesta sobre nuestros servicios
+    en Red Bank, has ganado un 25% de descuento en nuestros seguros. Ponte en contacto
+    con nosotros en: RedBank@org.com Cuenta del cliente: *8264 M\xE1s informaci\xF3n
+    en nuestra WEB: www.redbank.uk"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

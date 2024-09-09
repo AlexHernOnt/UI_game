@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
+  m_Name: P3 E2 T
+  m_EditorClassIdentifier: 
+  phising: 0
+  imagenDePerfilEmpresa: {fileID: 0}
+  emisorDelMensajes: Blue Bank
+  contenidoMensajes: "\xA1MAYOR RENTABILIDAD! Blue Bank est\xE1 dando la oportunidad
+    a clientes para que cambien sus ahorros a cuentas de inversi\xF3n con una ganancia
+    del 5%. Si quiere m\xE1s informaci\xF3n, cont\xE1ctenos en: BlueBank@fr.com Cuenta
+    del cliente: *3598 M\xE1s informaci\xF3n en nuestra WEB: www.BlueBank.grc"
+  tieneLink: 0
+  linkDelMensaje: url del link de la empresa
+  tieneDocumento: 0
+  documentoDelMensaje: {fileID: 0}

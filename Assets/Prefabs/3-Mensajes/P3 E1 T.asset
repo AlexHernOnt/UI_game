@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
-  m_Name: P2E1F
+  m_Name: P3 E1 T
   m_EditorClassIdentifier: 
-  phising: 1
+  phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
   emisorDelMensajes: Red Bank
-  contenidoMensajes: "\xA1TE MEJORAMOS EL PRECIO! Hola, Teresa Mart\xEDnez Olivero,
-    desde Reed Baank le ofrecemos una mejora de condiciones para su cuenta de ahorros.
-    Ponte en contacto con nosotros en: ReedBaank@esp.com M\xE1s informaci\xF3n en
-    nuestra WEB: www.ReedBaank.esp"
+  contenidoMensajes: "\xA1REVISTA ARTE! Ya est\xE1 disponible nuestro cat\xE1logo
+    de revistas de arte exclusivas de Red Bank, suscr\xEDbase para obtenerlas semanalmente.
+    Cont\xE1ctenos a: RedBank@esp.com Puede suscribirse en nuestra WEB: www.RedBank.urc"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

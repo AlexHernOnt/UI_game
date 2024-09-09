@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
-  m_Name: P1E1
+  m_Name: P5E1T
   m_EditorClassIdentifier: 
   phising: 0
   imagenDePerfilEmpresa: {fileID: 0}
-  emisorDelMensajes: Nombre de la empresa
-  contenidoMensajes: Contenido del mensaje
+  emisorDelMensajes: Red Bank
+  contenidoMensajes: "\xA1PETICI\xD3N DENEGADA! Estimado MCS, desde Red Bank queremos
+    informarle que no podemos abrir una cuenta debido a sus deudas. Disculpe las
+    molestias. Cont\xE1ctenos a: RedBank@esp.com Puede consultar otros servicios
+    en nuestra WEB: www.RedBank.esp"
   tieneLink: 0
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0

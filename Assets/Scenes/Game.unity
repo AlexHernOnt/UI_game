@@ -532,11 +532,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1752b2dff7089d4694921a6969ae2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
+  image: {fileID: 917815249}
   rotationAngle: 30
   swipeThreshold: 500
   minAlpha: 0.5
   colorBlendFactor: 0.5
-  image: {fileID: 917815249}
 --- !u!222 &1047299432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1168,18 +1169,49 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bd1ab6474b0309b4facf388a463779a9, type: 2}
   B:
   - {fileID: 11400000, guid: 37826bbec39593c4d98c4141fadd5873, type: 2}
+  - {fileID: 11400000, guid: 0eaac62ce28dd2a4ea0217eae2cabe56, type: 2}
+  - {fileID: 11400000, guid: 46def1520a997dd4d85a3708afface50, type: 2}
   M_P1:
-  - {fileID: 11400000, guid: c69a126b69b63124595527aa84b3d52c, type: 2}
+  - {fileID: 11400000, guid: 2a86e3373f7a952498be0817273eabb7, type: 2}
+  - {fileID: 11400000, guid: 95d2075aa8d30334799cc9751fc88e71, type: 2}
+  - {fileID: 11400000, guid: 0562f4ca2e145684d9ec9bd38ba2fc7c, type: 2}
+  - {fileID: 11400000, guid: 6a39f97ca580e6e49b14e43e04749a6f, type: 2}
+  - {fileID: 11400000, guid: 647adf4b7d8076c46a7cab0867b526df, type: 2}
+  - {fileID: 11400000, guid: 092d35c8fa63ff446bf1c9bb213b1b93, type: 2}
   M_P2:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 092e5b77487beff42a1b55c426fd7ca7, type: 2}
+  - {fileID: 11400000, guid: 35dd6271542fa2048b4928aac0cd6954, type: 2}
+  - {fileID: 11400000, guid: 25fc048799bdc6148aedcbd99fef736c, type: 2}
+  - {fileID: 11400000, guid: d5d20d7a6c4cf124fad7ed121bf86507, type: 2}
+  - {fileID: 11400000, guid: f20daf52d740d034aacb45bd25a62656, type: 2}
+  - {fileID: 11400000, guid: 1427853cd675c4c41831f76d6679f86f, type: 2}
   M_P3:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: dfb1954cede7d1c42bf191db9b2ab7f8, type: 2}
+  - {fileID: 11400000, guid: 06e9b6b37fff85448a03089ee6f98a47, type: 2}
+  - {fileID: 11400000, guid: 3b0a151a9d2ecef4592648f4b5ba1220, type: 2}
+  - {fileID: 11400000, guid: a493116806676784da8fad6c876a8e24, type: 2}
+  - {fileID: 11400000, guid: c8afea6bf7296894087d273d1368a5f2, type: 2}
+  - {fileID: 11400000, guid: 3b112f18f8d7f1847ba9770910b07697, type: 2}
   M_P4:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 2ebf871a8856ebe42898e977db7756ce, type: 2}
+  - {fileID: 11400000, guid: cc6460c4a2bf0f744ac51799fba522ba, type: 2}
+  - {fileID: 11400000, guid: 5029689af88e9d14cbc6e0be1ef1e027, type: 2}
+  - {fileID: 11400000, guid: 56a7894a50c582846ac7dbaf8a554d21, type: 2}
+  - {fileID: 11400000, guid: 8cab20711d6ef434d87bbc62d3a3c596, type: 2}
+  - {fileID: 11400000, guid: 4de1b5432b4a50448b6ebfcf9fdf3523, type: 2}
   M_P5:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 76a4ea90371c9ae45baca719b49b2418, type: 2}
+  - {fileID: 11400000, guid: d1f94a3bca6e8b04e93b4e5e1bf5a661, type: 2}
+  - {fileID: 11400000, guid: 99603261586fe0d498c8b0400dd90494, type: 2}
+  - {fileID: 11400000, guid: a01a6dbbbcc402144bc04772f8f34cc4, type: 2}
+  - {fileID: 11400000, guid: 9157409dff5a2a64cb564b33685391ef, type: 2}
+  - {fileID: 11400000, guid: da5879b290a680a40804419f903b4cf6, type: 2}
+  BoxPerson: {fileID: 0}
+  BoxBusiness: {fileID: 0}
+  Message: {fileID: 0}
   currentCharacter: 0
   currentMessage: 0
+  charactersPlayedToday: 
 --- !u!4 &1998948875
 Transform:
   m_ObjectHideFlags: 0

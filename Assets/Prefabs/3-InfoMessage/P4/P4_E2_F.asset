@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
+  m_Name: P4_E2_F
+  m_EditorClassIdentifier: 
+  phising: 1
+  imagenDePerfilEmpresa: {fileID: 0}
+  emisorDelMensajes: Blue Bank
+  contenidoMensajes: "\xA1SIN SALDO! Su cuenta Blue Bank ha quedado sin saldo tras
+    la \xFAltima transacci\xF3n, ingrese 100\u20AC. Cont\xE1ctenos en: BlueBank@fr.com
+    Vis\xEDtanos en: www.BlueBank.uk"
+  tieneLink: 0
+  linkDelMensaje: url del link de la empresa
+  tieneDocumento: 0
+  documentoDelMensaje: {fileID: 0}
+  empresaPrefab: {fileID: 0}

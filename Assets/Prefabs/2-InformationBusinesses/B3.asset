@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 591d91ace89182f42adbf7332bc15209, type: 3}
-  m_Name: B1
+  m_Name: B3
   m_EditorClassIdentifier: 
   imagenDePerfilEmpresa: {fileID: 0}
-  nombreDeLaEmpresa: Red Bank
-  contactoEmpresa: RedBank@esp.com
-  reclamoEmpresa: Ofertas en seguros, servicios y viajes
-  urlsEmpresa: .UK | . ESP | .URC
+  nombreDeLaEmpresa: Green Bank
+  contactoEmpresa: GreenBanck@grm.com
+  reclamoEmpresa: "Ofertas en seguros, telefon\xEDa y entretenimiento"
+  urlsEmpresa: .ITL | . ESP | .IRL | .GRM

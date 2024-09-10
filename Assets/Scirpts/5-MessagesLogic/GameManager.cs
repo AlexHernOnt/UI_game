@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
-
 	/*
 	**	
 	**  _                          _    _          
@@ -66,6 +64,8 @@ public class GameManager : MonoBehaviour
 	public	int							currentCharacter;
 	public	int							currentMessage;
 
+	public	List<int>					charactersPlayedToday = new List<int>();
+
 
 
 
@@ -111,18 +111,12 @@ public class GameManager : MonoBehaviour
 		BoxBusiness = GameObject.FindGameObjectWithTag("Boxinfo_Business").GetComponent<BoxInfoFillInfo>();
 		Message = GameObject.FindGameObjectWithTag("Message").GetComponent<MessageFillInfo>();
 	}
-
                  
-	/*
-	**	Game Managment Functions
-	*/
-
 	void ft_chooseCharacter()
 	{
 		currentCharacter = Random.Range(0, 5);
+		charactersPlayedToday.Add(currentCharacter);
 	}
-
-
 
 
 	/*
@@ -156,5 +150,40 @@ public class GameManager : MonoBehaviour
 		BoxBusiness.boxC.text = M_P1[currentMessage].empresaPrefab.reclamoEmpresa;
 		BoxBusiness.boxD.text = M_P1[currentMessage].empresaPrefab.urlsEmpresa;
 
+	}
+
+
+	
+	public void swiped(Vector2 pos)
+	{
+		if (M_P1[currentMessage].phising == true)
+		{
+			if (pos.x > 0)
+			{
+				P[currentCharacter].performanceHistory.Add(1);
+				print("Era Phising. Acertaste");
+			}
+			else
+			{
+				P[currentCharacter].performanceHistory.Add(0);
+				print("Era Phising. Fallaste");
+			}
+		}
+		else
+		{
+			if (M_P1[currentMessage].phising == false)
+			{
+				if (pos.x > 0)
+				{
+					print("No era Phising. Fallaste");
+					P[currentCharacter].performanceHistory.Add(0);
+				}
+				else
+				{
+					print("No era Phising. Acertaste");
+					P[currentCharacter].performanceHistory.Add(1);
+				}
+			}
+		}
 	}
 }

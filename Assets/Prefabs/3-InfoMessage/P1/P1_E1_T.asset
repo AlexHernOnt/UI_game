@@ -24,4 +24,4 @@ MonoBehaviour:
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0
   documentoDelMensaje: {fileID: 0}
-  empresaPrefab: {fileID: 0}
+  empresaPrefab: {fileID: 11400000, guid: 37826bbec39593c4d98c4141fadd5873, type: 2}

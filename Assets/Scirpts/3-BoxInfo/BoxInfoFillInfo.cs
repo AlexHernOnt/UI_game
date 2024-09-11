@@ -14,6 +14,6 @@ public class BoxInfoFillInfo : MonoBehaviour
 	public TextMeshProUGUI				boxB;
 	public TextMeshProUGUI				boxC;
  	public TextMeshProUGUI				boxD;
- 	public Sprite						boxSprite;
+ 	public Image						boxSprite;
 
 }

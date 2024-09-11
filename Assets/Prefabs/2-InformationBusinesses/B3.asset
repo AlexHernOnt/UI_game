@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591d91ace89182f42adbf7332bc15209, type: 3}
   m_Name: B3
   m_EditorClassIdentifier: 
-  imagenDePerfilEmpresa: {fileID: 0}
+  imagenDePerfilEmpresa: {fileID: 21300000, guid: 41d625144133c554aaff03f121c1e166, type: 3}
   nombreDeLaEmpresa: Green Bank
   contactoEmpresa: GreenBanck@grm.com
   reclamoEmpresa: "Ofertas en seguros, telefon\xEDa y entretenimiento"

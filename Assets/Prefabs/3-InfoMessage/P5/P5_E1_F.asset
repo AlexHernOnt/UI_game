@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b362bb0e28931594fb637c1d9a65d264, type: 3}
-  m_Name: P5 E1 F
+  m_Name: P5_E1_F
   m_EditorClassIdentifier: 
   phising: 1
   imagenDePerfilEmpresa: {fileID: 0}
@@ -22,3 +22,4 @@ MonoBehaviour:
   linkDelMensaje: url del link de la empresa
   tieneDocumento: 0
   documentoDelMensaje: {fileID: 0}
+  empresaPrefab: {fileID: 11400000, guid: 37826bbec39593c4d98c4141fadd5873, type: 2}

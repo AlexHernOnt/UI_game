@@ -297,7 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameBusinessText: {fileID: 1149480874}
   MessageText: {fileID: 1719143687}
-  BusinessImage: {fileID: 0}
+  BusinessImage: {fileID: 1442896657}
 --- !u!1 &749138848
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,14 +431,14 @@ RectTransform:
   m_GameObject: {fileID: 917815247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9843899, y: 1.4718714, z: 0.81212175}
+  m_LocalScale: {x: 0.9843899, y: 2.0238233, z: 0.81212175}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1047299429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -98}
   m_SizeDelta: {x: 683, y: 318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917815249
@@ -688,9 +688,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 749138852}
     m_Modifications:
+    - target: {fileID: 2566940845826570518, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
+      propertyPath: boxSprite
+      value: 
+      objectReference: {fileID: 1952856079}
     - target: {fileID: 6221204811463335766, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
       propertyPath: m_Name
-      value: PF_Boxinfo_Business
+      value: 2.1_Boxinfo_Business
       objectReference: {fileID: 0}
     - target: {fileID: 6221204811463335766, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
       propertyPath: m_TagString
@@ -1131,6 +1135,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 153123603}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952856079 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8461828446706195786, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
+  m_PrefabInstance: {fileID: 1391622041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998948873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,7 +1223,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: da5879b290a680a40804419f903b4cf6, type: 2}
   BoxPerson: {fileID: 0}
   BoxBusiness: {fileID: 0}
-  Message: {fileID: 0}
+  BoxMessage: {fileID: 0}
   currentCharacter: 0
   currentMessage: 0
   charactersPlayedToday: 
@@ -1268,6 +1283,18 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8529874
+      objectReference: {fileID: 0}
+    - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8529874
+      objectReference: {fileID: 0}
+    - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8529874
+      objectReference: {fileID: 0}
+    - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1297,11 +1324,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 226
+      value: 379
       objectReference: {fileID: 0}
     - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -877
+      value: 487
       objectReference: {fileID: 0}
     - target: {fileID: 168335501760283927, guid: 966402a48f35f164ba2e1ab62e8e3f1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1354,6 +1381,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Boxinfo_Person
       objectReference: {fileID: 0}
+    - target: {fileID: 8461828446706195786, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0eda85133e0b2f49b5132de1fafd437, type: 3}
     - target: {fileID: 8926696058010961483, guid: dd96eca0b88ca1e448daa179b5665c81, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Threading;
+using System.Collections;
 
 public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 {
@@ -98,6 +100,7 @@ public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 			// Aqu� puedes manejar la acci�n de "descarte", por ejemplo, moviendo la imagen fuera de la pantalla.
 			_gameManager.swiped(pos);
             pos.x = pos.x > 0 ? Screen.width : -Screen.width;
+	        StartCoroutine("waitAwayAndReapear");
 		}
 		else
 		{
@@ -109,4 +112,14 @@ public class SwipeDeMensajes : MonoBehaviour, IDragHandler, IEndDragHandler
 		rectTransform.rotation = Quaternion.identity; // Resetea la rotaci�n
 		image.color = originalColor; // Resetea la transparencia y el color
 	}
+
+
+
+    
+    IEnumerator waitAwayAndReapear()
+    {
+        yield return new WaitForSeconds(2);
+		rectTransform.anchoredPosition = startPos;
+    }
+
 }
